@@ -2,6 +2,6 @@
   "name": "pkg4",
   "packageManager": "yarn@3.0.0",
   "scripts": {
-    "foo": "cd $PROJECT_CWD && yarn ts-node test.ts $(git rev-parse HEAD)"
+    "foo": "cd $PROJECT_CWD && node test.js $(git rev-parse HEAD)"
   }
 }
