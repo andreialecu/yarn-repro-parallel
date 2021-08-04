@@ -1,0 +1,7 @@
+{
+  "name": "pkg8",
+  "packageManager": "yarn@3.0.0",
+  "scripts": {
+    "foo": "cd $PROJECT_CWD && yarn ts-node test.ts $(git rev-parse HEAD)"
+  }
+}
